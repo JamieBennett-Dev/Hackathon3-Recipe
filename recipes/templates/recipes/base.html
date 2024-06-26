@@ -18,7 +18,7 @@
     <!-- Fontawesome Icons -->
     <script src="https://kit.fontawesome.com/6e20b8d34b.js" crossorigin="anonymous"></script>
     <!-- Favicon -->
-    <link rel="shortcut icon" href="{% static '../../../static/favicon/recipe-favicon.jpg' %}" type="image/x-icon">
+    <link rel="shortcut icon" href="{% static '../../../static/favicon/CCP-LOGOv2-removebg-preview.png' %}" type="image/x-icon">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{% static '../../../static/css/style.css' %}">
 </head>
@@ -40,9 +40,13 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
+                    <li class="nav-item px-4">
+                        <a class="nav-link fs-5 d-flex justify-content-center align-items-center" aria-current="page"
+                            href="{% url 'recipes-home' %}"><i class="fa-solid fa-house pe-2"></i> Home</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link fs-5 d-flex justify-content-center align-items-center" aria-current="page"
-                            href="{% url 'recipes-home' %}"><i class="fa-solid fa-book"></i> Recipes</a>
+                            href="{% url 'recipes-about' %}"><i class="fa-solid fa-heart pe-2"></i> About Us</a>
                     </li>
                 </ul>
             </div>
