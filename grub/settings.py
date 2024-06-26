@@ -87,6 +87,11 @@ DATABASES = {
     }
 }
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://8000-jamiebennet-hackathon3r-hb119c9mv7i.ws.codeinstitute-ide.net",
+    "https://*.herokuapp.com"
+]
+
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
