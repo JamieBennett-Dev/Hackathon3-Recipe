@@ -1,5 +1,11 @@
 {% extends 'recipes/base.html' %}
 
-    {% block content %}
-        <h1>Recipes Home HTML, extended TEST</h1>
-    {% endblock content %}    
+{% block content %}
+
+{% for recipe in recipes %}
+<h1>{{ recipe.title }}</h1>
+<p>{{ recipe.author }} | {{ recipe.date_posted }}</p>
+<p>{{ recipe.instructions }}</p>
+{% endfor %}
+
+{% endblock content %}
