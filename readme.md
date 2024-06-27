@@ -3,10 +3,7 @@ Hackathon 3! Recipe sharing site!
 ### DevChefs: Brendan, Chris, Jamie, Simon
 
 Here at Ching's Chaps, we serve our users a selection of recipes to browse. Registered Users can create, edit and delete chosen dishes. 
-
-
 **- USE HI-FI WIREFRAMES HERE -**
-
 
 Website URL: - https://recipe-app505-77c484b2c0fb.herokuapp.com/
 ### User Stories
