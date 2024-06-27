@@ -4,11 +4,14 @@ Hackathon 3! Recipe sharing site!
 
 Here at Ching's Chaps, we serve our users a selection of recipes to browse. Registered Users can create, edit and delete chosen dishes. 
 
-# Insert Responsive hi-fi wireframes here  ......
-Insert a deployed heroku link here
+
+**- USE HI-FI WIREFRAMES HERE -**
+
+
+Website URL: - https://recipe-app505-77c484b2c0fb.herokuapp.com/
 ### User Stories
 
-As a new user, I want to browse through a list of recipes so that I can discover new dishes to try.
+#### As a new user, I want to browse through a list of recipes so that I can discover new dishes to try.
 
 User can see a paginated list of recipes with titles and thumbnails.
 User can click on a recipe to view its details.
@@ -50,6 +53,20 @@ Admin can edit user details and save the changes.
 Admin can delete a user from the user list in the admin panel.
 Admin receives a confirmation prompt before deletion.
 
-#### color pallete goes here
+#### Google Fonts Used
+- "Poppins" - Paragraphs and smaller text
+- "Playwrite NG Modern" - Use for Titles, Headers
 
-#### 
+#### Colour Pallete from coolers.com
+![colours](../Hackathon3-Recipe/static/images/colorscool.png)
+- #FF6F61 - Bittersweet
+- #660900 - Bloodred
+- #4A90E2 - Chefchaouen Blue
+- #0B2747 - Oxford Blue
+- #F5F5F5 - White Smoke
+- #333333 - Jet
+- #141414 - Night
+
+### Lo-Fi Wireframes
+![wire1](../Hackathon3-Recipe/static/images/desk1.png)
+![wire2](../Hackathon3-Recipe/static/images/mob1.png)
