@@ -29,6 +29,8 @@ DEBUG = True
 ALLOWED_HOSTS = [
     '8001-jamiebennet-hackathon3r-p1nhogmhsag.ws.codeinstitute-ide.net',
     '.herokuapp.com'
+    '8001-jamiebennet-hackathon3r-55a6xuz3ops.ws.codeinstitute-ide.net',
+    '.herokuapp.com',
 ]
 
 # Application definition

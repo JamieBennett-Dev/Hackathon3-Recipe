@@ -48,6 +48,10 @@
                         <a class="nav-link fs-5 d-flex justify-content-center align-items-center" aria-current="page"
                             href="{% url 'recipes-about' %}"><i class="fa-solid fa-heart pe-2"></i> About Us</a>
                     </li>
+                    <li class="nav-item px-4">
+                        <a class="nav-link fs-5 d-flex justify-content-center align-items-center" aria-current="page"
+                            href="{% url 'recipes-create' %}"><i class="fa-solid fa-book-open pe-2"></i> Add Recipe</a>
+                    </li>
                     {% if user.is_authenticated %}
                     <li class="nav-item px-4">
                         <a class="nav-link fs-5 d-flex justify-content-center align-items-center" aria-current="page"

@@ -4,4 +4,8 @@ dj-database-url==2.2.0
 Django==5.0.6
 django-crispy-forms==2.2
 gunicorn==22.0.0
+<<<<<<< HEAD
+=======
+psycopg2==2.9.9
+>>>>>>> main
 sqlparse==0.5.0
