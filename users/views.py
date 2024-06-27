@@ -11,8 +11,8 @@ def register(request):
       form.save()
       # cleaned data is a dictionary
       username = form.cleaned_data.get('username')
-      messages.success(request, f"{username}, you're account is created!")
-      return redirect('recipes-home')
+      messages.success(request, f"{username}, your account has been created. Please login!")
+      return redirect('user-login')
   else:
     form = forms.UserRegisterForm()
   return render(request, 'users/register.html', {'form': form})
