@@ -92,6 +92,26 @@ nav a:hover {
 #pep {
     color: #660900
 }
+
 #pep2 {
     color: #660900;
+}
+
+/* Custom scroll bar */
+
+::-webkit-scrollbar {
+    width: 0.6em;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #0B2747;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4A90E2;
+    border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #A8CBF0;
 }
