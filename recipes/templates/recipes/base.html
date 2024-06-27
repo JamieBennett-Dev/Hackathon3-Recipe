@@ -54,8 +54,12 @@
                             href="{% url 'user-profile' %}"><i class="fa-solid fa-user pe-2"></i> My Profile</a>
                     </li>
                     <li class="nav-item px-4">
-                        <a class="nav-link fs-5 d-flex justify-content-center align-items-center" aria-current="page"
-                            href="{% url 'user-logout' %}"><i class="fa-solid fa-right-from-bracket pe-2"></i> Logout</a>
+                        <form method="POST" action="{% url 'user-logout' %}" class="d-flex justify-content-center align-items-center">
+                            {% csrf_token %}
+                            <button type="submit" class="btn btn-link nav-link fs-5 d-flex justify-content-center align-items-center">
+                                <i class="fa-solid fa-right-from-bracket pe-2"></i> Logout
+                            </button>
+                        </form>
                     </li>
                     {% else %}
                     <li class="nav-item px-4">
