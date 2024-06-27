@@ -99,6 +99,15 @@ nav a {
 
 .about-title {
     text-align: center;
+    font-family: "Playwrite NG Modern", sans-serif;
+    font-weight: bolder;
+    text-shadow: -1px -1px 0 #0B2747, 1px -1px 0 #0B2747, -1px 1px 0 #0B2747, 1px 1px 0 #0B2747;
+    color: #4A90E2;
+    text-decoration: underline;
+}
+
+.about-text {
+    font-family: "Poppins", sans-serif;
 }
 
 .row-containers {
@@ -128,15 +137,6 @@ nav a {
     background-position: 0% 80%;
     background-repeat: no-repeat;
 }
-
-.about-title {
-    font-family: "Poppins", sans-serif;
-}
-
-.about-text {
-    font-family: "Poppins", sans-serif;
-}
-
 
 /* Media queries */
 @media (min-width: 1200px) {
