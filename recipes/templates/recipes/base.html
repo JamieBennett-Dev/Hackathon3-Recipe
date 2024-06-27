@@ -65,7 +65,11 @@
     </nav>
 
     <!-- Main Content -->
-    <div class="container-fluid mt-4 col-12">{% block content %} {% endblock %}</div>
+    <div class="container-fluid mt-4 col-12">
+        {% if messages %} {% for message in messages %}
+        <div class="alert alert-{{ message.tags }}">{{ message }}</div>
+        {% endfor %} {% endif %} {% block content %} {% endblock %}
+    </div>
 
     <!-- Footer -->
     <footer class="py-4 container-fluid d-flex flex-wrap justify-content-around align-items-center" id="footer-content">
