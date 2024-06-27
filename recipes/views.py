@@ -10,7 +10,3 @@ def home(request):
 
 def about(request):
   return render(request, 'recipes/about.html', {'title': 'about page'})
-
-
-
-    
