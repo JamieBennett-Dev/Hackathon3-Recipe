@@ -35,10 +35,6 @@ nav a {
     transition: all 0.3s ease;
 }
 
-nav a:hover {
-    text-decoration: underline;
-}
-
 .navbar-toggler {
     color: #F5F5F5;
     border: 3px solid #f5f5f5;
@@ -53,7 +49,24 @@ nav a:hover {
     font-family: "Poppins", sans-serif;
 }
 
+.card {
+    border: 4px solid #FF6F61;
+    background-color: rgba(255,111,97, 0.1);
+    border-radius: 10px;
+}
+
+.card-title {
+    color: #4A90E2;
+    text-shadow: -1px -1px 0 #0B2747, 1px -1px 0 #0B2747, -1px 1px 0 #0B2747, 1px 1px 0 #0B2747;
+}
+
+.card-link {
+    text-decoration: underline;
+    color: #4A90E2;
+}
+
 /* Footer Styles */
+
 #footer-content {
     font-family: "Poppins", sans-serif;
 }
@@ -103,50 +116,130 @@ nav a:hover {
 
 .about-title {
     text-align: center;
+    font-family: "Playwrite NG Modern", sans-serif;
+    font-weight: bolder;
+    text-shadow: -1px -1px 0 #0B2747, 1px -1px 0 #0B2747, -1px 1px 0 #0B2747, 1px 1px 0 #0B2747;
+    color: #4A90E2;
 }
 
-.row-containers {
-    height: 30vh;
-}
-
-#team-image {
-    background-image: url('../images/team-new.jpg');
-    width: 100%;
-    height: 100%;
-    background-position: 15%, 20%;
-}
-
-#goals-img {
-    background-image: url('../images/goals-image.avif');
-    width: 100%;
-    height: 100%;
-    background-position: 0%, -100%;
-    background-repeat: no-repeat;
-    
-}
-
-#future-img {
-    background-image: url('../images/about-future.jpg');
-    width: 100%;
-    height: 100%;
-    background-position: 0% 80%;
-    background-repeat: no-repeat;
-}
-
-.about-title {
-    font-family: "Poppins", sans-serif;
+#about-us {
+    text-decoration: underline;
 }
 
 .about-text {
     font-family: "Poppins", sans-serif;
 }
 
-@media only screen and (max-width: 992px){
-    .row-containers {
-        height: fit-content;
-    }
+#about-us-icons {
+    text-shadow: none;
+    color: #0B2747;
+}
 
-    .bigger-text-container {
-        height: fit-content;
+#about-us-container {
+    border: 4px solid #FF6F61;
+    background-color: rgba(255,111,97, 0.1);
+    border-radius: 10px;
+}
+
+/* register styles */
+#register-legend {
+    color: #4A90E2;
+    text-shadow: -1px -1px 0 #0B2747, 1px -1px 0 #0B2747, -1px 1px 0 #0B2747, 1px 1px 0 #0B2747;
+    font-family: "Playwrite NG Modern", sans-serif;
+    text-decoration: underline;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.btn {
+    border: 2px solid #FF6F61;
+    transition: all 0.3s ease;
+    color: #FF6F61;
+    font-weight: bold;
+}
+
+.btn:hover {
+    color: #4A90E2;
+    border: 2px solid #0B2747;
+    background-color: #0B2747;
+}
+
+/* Login styles */
+#login-legend {
+    color: #4A90E2;
+    text-shadow: -1px -1px 0 #0B2747, 1px -1px 0 #0B2747, -1px 1px 0 #0B2747, 1px 1px 0 #0B2747;
+    font-family: "Playwrite NG Modern", sans-serif;
+    text-decoration: underline;
+    font-weight: bolder;
+    text-align: center;
+}
+
+/* Add Recipe styles */
+#recipe-legend {
+    color: #4A90E2;
+    text-shadow: -1px -1px 0 #0B2747, 1px -1px 0 #0B2747, -1px 1px 0 #0B2747, 1px 1px 0 #0B2747;
+    font-family: "Playwrite NG Modern", sans-serif;
+    text-decoration: underline;
+    font-weight: bolder;
+    text-align: center;
+}
+
+/* Update and Delete Buttons BootStrap Override */
+.btn-outline-info {
+    border: 2px solid #56B200;
+    transition: all 0.3s ease;
+    color: #56B200;
+    font-weight: bold;
+}
+
+.btn-outline-info:hover {
+    background-color: #56B200;
+    color: #fff;
+    border: 2px solid #56B200;
+}
+
+.btn-outline-danger {
+    border: 2px solid #FF0000;
+    transition: all 0.3s ease;
+    color: #FF0000;
+    font-weight: bold;
+}
+
+.btn-outline-danger:hover {
+    background-color: #FF0000;
+    color: #fff;
+    border: 2px solid #FF0000;
+}
+
+/* Logout */
+#logout {
+    border: 2px solid #FF6F61;
+    background-color: #fff;
+    transition: all 0.3s ease;
+    color: #FF6F61;
+    font-weight: bold;
+}
+
+#logout:hover {
+    color: #4A90E2;
+    border: 2px solid #0B2747;
+    background-color: #0B2747;
+}
+
+.logout-legend {
+    color: #4A90E2;
+    text-shadow: -1px -1px 0 #0B2747, 1px -1px 0 #0B2747, -1px 1px 0 #0B2747, 1px 1px 0 #0B2747;
+    font-family: "Playwrite NG Modern", sans-serif;
+    text-decoration: underline;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+/* Media queries */
+@media (min-width: 1200px) {
+    .navbar .navbar-toggler {
+        display: none;
     }
 }
+

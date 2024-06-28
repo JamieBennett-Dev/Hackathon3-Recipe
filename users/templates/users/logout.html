@@ -1,13 +1,13 @@
 {% extends "recipes/base.html" %}
 {% block content %}
 <div class="container">
-  <h2>You have been logged out!</h2>
+  <h2 class="logout-legend mb-3"><i class="fa-solid fa-right-from-bracket pe-2" id="about-us-icons"></i>You have been logged out!</h2>
   <div class="border-top pt-3">
     <form method="POST" action="{% url 'user-logout' %}">
       {% csrf_token %}
-      <button type="submit" class="btn btn-primary">Log out</button>
+      <button type="submit" class="btn btn-primary" id="logout">Log out</button>
     </form>
-    <a class="text-muted" href="{% url 'user-login' %}">Log back in here.</a>
+    <a class="card-link" href="{% url 'user-login' %}">Log back in here.</a>
   </div>
 </div>
 {% endblock content %}
