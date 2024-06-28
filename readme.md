@@ -5,7 +5,7 @@ Here at Ching's Chaps, we serve our users a selection delicious recipes to brows
 
 Website URL: - https://recipe-app505-77c484b2c0fb.herokuapp.com/
 
-![idiot sandwich](static/images/idiotsandwich2.jpg)
+![idiot sandwich](static/images/hifi-devices.png)
 
 ### User Stories
 
