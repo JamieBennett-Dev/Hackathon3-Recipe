@@ -7,8 +7,8 @@
   <form method="POST">
     {% csrf_token %}
     <fieldset class="form-group">
-      <legend class="mb-4">Are you sure you want to delete?</legend>
-      <h2>{{object}}</h2>
+      <legend class="mb-4 delete-legend"><h1><i class="fa-solid fa-triangle-exclamation pe-2" id="about-us-icons"></i>Are you sure you want to delete?</h1></legend>
+      <h3 class="card-title"><i class="fa-solid fa-kitchen-set pe-2" id="about-us-icons"></i>{{object}}</h3>
       {{ form|crispy }}
     </fieldset>
     <div class="form-group py-3">

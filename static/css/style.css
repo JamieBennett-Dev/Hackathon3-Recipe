@@ -235,6 +235,16 @@ nav a {
     text-align: center;
 }
 
+/* Confirm delete */
+.delete-legend {
+    color: #4A90E2;
+    text-shadow: -1px -1px 0 #0B2747, 1px -1px 0 #0B2747, -1px 1px 0 #0B2747, 1px 1px 0 #0B2747;
+    font-family: "Playwrite NG Modern", sans-serif;
+    text-decoration: underline;
+    font-weight: bolder;
+    text-align: center;
+}
+
 
 /* Media queries */
 @media (min-width: 1200px) {
