@@ -184,6 +184,33 @@ nav a {
     text-align: center;
 }
 
+/* Update and Delete Buttons BootStrap Override */
+.btn-outline-info {
+    border: 2px solid #56B200;
+    transition: all 0.3s ease;
+    color: #56B200;
+    font-weight: bold;
+}
+
+.btn-outline-info:hover {
+    background-color: #56B200;
+    color: #fff;
+    border: 2px solid #56B200;
+}
+
+.btn-outline-danger {
+    border: 2px solid #FF0000;
+    transition: all 0.3s ease;
+    color: #FF0000;
+    font-weight: bold;
+}
+
+.btn-outline-danger:hover {
+    background-color: #FF0000;
+    color: #fff;
+    border: 2px solid #FF0000;
+}
+
 /* Media queries */
 @media (min-width: 1200px) {
     .navbar .navbar-toggler {
