@@ -211,6 +211,31 @@ nav a {
     border: 2px solid #FF0000;
 }
 
+/* Logout */
+#logout {
+    border: 2px solid #FF6F61;
+    background-color: #fff;
+    transition: all 0.3s ease;
+    color: #FF6F61;
+    font-weight: bold;
+}
+
+#logout:hover {
+    color: #4A90E2;
+    border: 2px solid #0B2747;
+    background-color: #0B2747;
+}
+
+.logout-legend {
+    color: #4A90E2;
+    text-shadow: -1px -1px 0 #0B2747, 1px -1px 0 #0B2747, -1px 1px 0 #0B2747, 1px 1px 0 #0B2747;
+    font-family: "Playwrite NG Modern", sans-serif;
+    text-decoration: underline;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
 /* Media queries */
 @media (min-width: 1200px) {
     .navbar .navbar-toggler {
